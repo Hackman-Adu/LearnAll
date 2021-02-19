@@ -20,7 +20,7 @@ class StartScreenState extends State<StartScreen> {
 
   void showbottomSheet(BuildContext context) {
     showModalBottomSheet(
-        barrierColor: Theme.of(context).primaryColor.withOpacity(0.85),
+        barrierColor: Theme.of(context).primaryColor.withOpacity(0.87),
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(7), topRight: Radius.circular(7))),
